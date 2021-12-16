@@ -61,7 +61,7 @@ object FileSelector {
         "bmp", "jpg", "jpeg", "gif", "png", "eps"
     )
     /* Set Image Size*/
-    var imageSize = 512 // Default value set to 512
+    private var imageSize = 512 // Default value set to 512
 
     /** call open function and get response in callback interface */
     fun open(activity: Activity, fileSelectorCallBack: FileSelectorCallBack) {
